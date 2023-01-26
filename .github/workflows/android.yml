@@ -140,9 +140,9 @@ jobs:
       continue-on-error: true
       run: |
         cd "${{ env.GRANDLE_WORK_DIR }}"
+        ./gradlew wrapper --gradle-version=7.5.1
         ./gradlew clean
         rm -rf build
-        ./gradlew wrapper --gradle-version=7.5.1
         ./gradlew --build-cache build -Prust-target=arm64
         ./gradlew --build-cache assembleRelease -Prust-target=arm64
         ./gradlew --build-cache assembleDebug -Prust-target=arm64
