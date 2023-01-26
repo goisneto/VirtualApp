@@ -30,7 +30,7 @@ jobs:
           echo GRANDLE_WORK_DIR=/not-found >> $GITHUB_ENV
           echo GRANDLE_APP_DIR=/not-found >> $GITHUB_ENV
         else
-          find ${GRANDLE_WORK_DIR} -mindepth 2 -type f -name 'build.gradle' -print -quit | ( xargs -r -I@ echo 'GRANDLE_APP_DIR=@' >> $GITHUB_ENV )
+          find ${GRANDLE_WORK_DIR} -mindepth 2 -type f -name 'build.gradle' -print -quit | ( xargs -r -I@ bash -c 'echo "GRANDLE_APP_DIR=$(dirname @)"' >> $GITHUB_ENV )
           . $GITHUB_ENV
           if [[ ! -n "${GRANDLE_APP_DIR}" ]]; then
             echo GRANDLE_APP_DIR=/not-found >> $GITHUB_ENV
