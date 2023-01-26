@@ -113,7 +113,9 @@ jobs:
       run: cargo install-update -a
       
     - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+      run: |
+        cd "${{ env.GRANDLE_WORK_DIR }}"
+        chmod +x gradlew
       
     - name: Perform prebuild executions
       shell: bash {0}
