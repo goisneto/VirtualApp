@@ -1,19 +1,24 @@
 name: Android CI
+
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+    
 env:
   app-name: VirtualApp
   target: aarch64-linux-android
   binstall-args: --no-confirm --no-symlinks
   cache-name: cache
+  
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    
     - uses: actions/checkout@v3
+    
     - name: Find Grandle Directories
       shell: bash {0}
       run: |
@@ -32,6 +37,7 @@ jobs:
         . $GITHUB_ENV
         echo GRANDLE_WORK_DIR=${GRANDLE_WORK_DIR}
         echo GRANDLE_APP_DIR=${GRANDLE_APP_DIR}
+        
     - name: Cache
       id: cache
       uses: actions/cache@v3
@@ -52,6 +58,7 @@ jobs:
           !${{ env.GRANDLE_APP_DIR }}/rs/*.*
           ${{ env.GRANDLE_APP_DIR }}/lint-baseline.xml
           ${{ env.GRANDLE_APP_DIR }}/src/main/assets
+          
     - name: Update Grandle JVM Memory
       shell: bash {0}
       run: |
@@ -64,23 +71,27 @@ jobs:
         sed -i "s/-XX:MaxPermSize=[0-9]*(g|m|k)/-XX:MaxPermSize=${MEMPERM}m/g" ${{ env.GRANDLE_WORK_DIR }}/gradle.properties
         echo "./gradle.properties updated:"
         grep 'org.gradle.jvmargs=' ${{ env.GRANDLE_WORK_DIR }}/gradle.properties
+        
     - name: Setup JDK 11
       uses: actions/setup-java@v3
       with:
         java-version: '11'
         distribution: 'temurin'
         cache: gradle
+        
     - name: Setup NDK
       uses: nttld/setup-ndk@v1
       with:
         ndk-version: r25b
         local-cache: true
+        
     - name: Cargo Setup toolchain action to ${{ env.target }}
       uses: actions-rs/toolchain@v1
       with:
         toolchain: nightly
         target: ${{ env.target }}
         override: true
+        
     - name: Rustup add ${{ env.target }} and Cargo install cargo-binstall
       shell: bash {0}
       run: |
@@ -91,13 +102,17 @@ jobs:
         tar -xf cargo-binstall-x86_64-unknown-linux-musl.tgz -C $HOME/.cargo/bin
         rm cargo-binstall-x86_64-unknown-linux-musl.tgz
         #cargo install cargo-binstall
+        
     - name: Cargo binstall cargo-update cross cargo-xdk
-      run: cargo binstall ${{ env.binstall-args }} cargo-update cross cargo-xdk 
+      run: cargo binstall ${{ env.binstall-args }} cargo-update cross cargo-xdk
+      
     - name: Cargo Update
       continue-on-error: true
       run: cargo install-update -a
+      
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
+      
     - name: Perform prebuild executions
       shell: bash {0}
       run: |
@@ -116,16 +131,18 @@ jobs:
                         echo "Done ${GRANDLE_APP_DIR}/pre-build.sh"
                 fi
         fi
+        
     - name: Build with Gradle
       continue-on-error: true
       run: |
         cd "${{ env.GRANDLE_WORK_DIR }}"
         ./gradlew clean
-        rm -rf build 
+        rm -rf build
         ./gradlew wrapper --gradle-version=7.5.1
         ./gradlew --build-cache build -Prust-target=arm64
         ./gradlew --build-cache assembleRelease -Prust-target=arm64
         ./gradlew --build-cache assembleDebug -Prust-target=arm64
+        
     - name: Find Apk
       shell: bash {0}
       run: |
@@ -137,11 +154,13 @@ jobs:
         . $GITHUB_ENV
         echo DEBUGAPK=${DEBUGAPK}
         echo RELEASEAPK=${RELEASEAPK}
+        
     - name: Build Artifacts ${{ env.app-name }}-release.apk
       uses: actions/upload-artifact@v3
       with:
         name: ${{ env.app-name }}.apk RELEASE
         path: ${{ env.RELEASEAPK }}
+        
     - name: Build Artifacts ${{ env.app-name }}-debug.apk
       uses: actions/upload-artifact@v3
       with:
