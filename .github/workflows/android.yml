@@ -74,10 +74,10 @@ jobs:
         echo "./gradle.properties updated:"
         grep 'org.gradle.jvmargs=' ${{ env.GRANDLE_WORK_DIR }}/gradle.properties
         
-    - name: Setup JDK 11
+    - name: Setup JDK
       uses: actions/setup-java@v3
       with:
-        java-version: '11'
+        java-version: '8'
         distribution: 'temurin'
         cache: gradle
         
