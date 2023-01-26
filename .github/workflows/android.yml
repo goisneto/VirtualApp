@@ -1,17 +1,14 @@
 name: Android CI
-
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
 env:
   app-name: VirtualApp
   target: aarch64-linux-android
   binstall-args: --no-confirm --no-symlinks
   cache-name: cache
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -104,21 +101,21 @@ jobs:
     - name: Perform prebuild executions
       shell: bash {0}
       run: |
-         . $GITHUB_ENV
-         if [[ ! -x "${GRANDLE_WORK_DIR}/pre-build.sh" ]] &&  [[ ! -x "${GRANDLE_APP_DIR}/pre-build.sh" ]]; then
-           echo "${GRANDLE_WORK_DIR}/pre-build.sh and/or ${GRANDLE_APP_DIR}/pre-build.sh executable(s) not found..."
-         else
-           if [[ -x "${GRANDLE_WORK_DIR}/pre-build.sh" ]]; then
-             echo "Running ${GRANDLE_WORK_DIR}/pre-build.sh"
-             . "${GRANDLE_WORK_DIR}/pre-build.sh"
-             echo "Done ${GRANDLE_WORK_DIR}/pre-build.sh"
-           fi
-           if [[ -x "${GRANDLE_APP_DIR}/pre-build.sh" ]]; then
-             echo "Running ${GRANDLE_APP_DIR}/pre-build.sh"
-             . "${GRANDLE_APP_DIR}/pre-build.sh"
-             echo "Done ${GRANDLE_APP_DIR}/pre-build.sh"
-           fi
-         fi
+        . $GITHUB_ENV
+        if [[ ! -x "${GRANDLE_WORK_DIR}/pre-build.sh" ]] &&  [[ ! -x "${GRANDLE_APP_DIR}/pre-build.sh" ]]; then
+        echo "${GRANDLE_WORK_DIR}/pre-build.sh and/or ${GRANDLE_APP_DIR}/pre-build.sh executable(s) not found..."
+        else
+                if [[ -x "${GRANDLE_WORK_DIR}/pre-build.sh" ]]; then
+                        echo "Running ${GRANDLE_WORK_DIR}/pre-build.sh"
+                        . "${GRANDLE_WORK_DIR}/pre-build.sh"
+                        echo "Done ${GRANDLE_WORK_DIR}/pre-build.sh"
+                fi
+                if [[ -x "${GRANDLE_APP_DIR}/pre-build.sh" ]]; then
+                        echo "Running ${GRANDLE_APP_DIR}/pre-build.sh"
+                        . "${GRANDLE_APP_DIR}/pre-build.sh"
+                        echo "Done ${GRANDLE_APP_DIR}/pre-build.sh"
+                fi
+        fi
     - name: Build with Gradle
       continue-on-error: true
       run: |
