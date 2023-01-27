@@ -137,7 +137,6 @@ jobs:
         fi
         
     - name: Build with Gradle
-      continue-on-error: true
       run: |
         cd "${{ env.GRANDLE_WORK_DIR }}"
         ./gradlew wrapper --gradle-version=7.5.1
