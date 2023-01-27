@@ -238,6 +238,7 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <activity
+            android:exported="true"
             android:name=".client.stub.StubPendingActivity"
             android:process="@string/engine_process_name" />
 
@@ -254,6 +255,7 @@
             android:process="@string/engine_process_name" />
 
         <activity
+            android:exported="true"
             android:name=".client.stub.ChooseAccountTypeActivity"
             android:configChanges="keyboard|keyboardHidden|orientation"
             android:excludeFromRecents="true"
@@ -262,6 +264,7 @@
             android:screenOrientation="portrait" />
 
         <activity
+            android:exported="true"
             android:name=".client.stub.ChooseTypeAndAccountActivity"
             android:configChanges="keyboard|keyboardHidden|orientation"
             android:excludeFromRecents="true"
@@ -270,6 +273,7 @@
             android:screenOrientation="portrait" />
 
         <activity
+            android:exported="true"
             android:name=".client.stub.ChooserActivity"
             android:configChanges="keyboard|keyboardHidden|orientation"
             android:excludeFromRecents="true"
@@ -280,6 +284,7 @@
             android:theme="@style/VAAlertTheme" />
 
         <activity
+            android:exported="true"
             android:name=".client.stub.ResolverActivity"
             android:configChanges="keyboard|keyboardHidden|orientation"
             android:excludeFromRecents="true"
@@ -296,6 +301,7 @@
             android:process="@string/engine_process_name" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C0"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p0"
@@ -303,6 +309,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C1"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p1"
@@ -310,6 +317,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C2"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p2"
@@ -317,6 +325,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C3"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p3"
@@ -324,6 +333,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C4"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p4"
@@ -331,6 +341,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C5"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p5"
@@ -338,6 +349,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C6"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p6"
@@ -345,6 +357,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C7"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p7"
@@ -352,6 +365,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C8"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p8"
@@ -359,6 +373,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C9"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p9"
@@ -366,6 +381,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C10"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p10"
@@ -373,6 +389,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C11"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p11"
@@ -380,6 +397,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C12"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p12"
@@ -387,6 +405,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C13"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p13"
@@ -394,6 +413,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C14"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p14"
@@ -401,6 +421,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C15"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p15"
@@ -408,6 +429,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C16"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p16"
@@ -415,6 +437,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C17"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p17"
@@ -422,6 +445,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C18"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p18"
@@ -429,6 +453,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C19"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p19"
@@ -436,6 +461,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C20"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p20"
@@ -443,6 +469,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C21"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p21"
@@ -450,6 +477,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C22"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p22"
@@ -457,6 +485,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C23"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p23"
@@ -464,6 +493,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C24"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p24"
@@ -471,6 +501,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C25"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p25"
@@ -478,6 +509,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C26"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p26"
@@ -485,6 +517,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C27"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p27"
@@ -492,6 +525,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C28"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p28"
@@ -499,6 +533,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C29"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p29"
@@ -506,6 +541,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C30"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p30"
@@ -513,6 +549,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C31"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p31"
@@ -520,6 +557,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C32"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p32"
@@ -527,6 +565,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C33"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p33"
@@ -534,14 +573,15 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C34"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
-
             android:process=":p34"
             android:taskAffinity="com.lody.virtual.vt"
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C35"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p35"
@@ -549,6 +589,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C36"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p36"
@@ -556,6 +597,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C37"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p37"
@@ -563,6 +605,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C38"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p38"
@@ -570,6 +613,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C39"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p39"
@@ -577,6 +621,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C40"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p40"
@@ -584,6 +629,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C41"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p41"
@@ -591,6 +637,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C42"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p42"
@@ -598,6 +645,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C43"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p43"
@@ -605,6 +653,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C44"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p44"
@@ -612,6 +661,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C45"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p45"
@@ -619,6 +669,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C46"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p46"
@@ -626,6 +677,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C47"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p47"
@@ -633,6 +685,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C48"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p48"
@@ -640,6 +693,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubActivity$C49"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p49"
@@ -647,6 +701,7 @@
             android:theme="@style/VATheme" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C0"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p0"
@@ -654,6 +709,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C1"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p1"
@@ -661,6 +717,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C2"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p2"
@@ -668,6 +725,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C3"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p3"
@@ -675,6 +733,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C4"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p4"
@@ -682,6 +741,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C5"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p5"
@@ -689,6 +749,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C6"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p6"
@@ -696,6 +757,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C7"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p7"
@@ -703,6 +765,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C8"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p8"
@@ -710,6 +773,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C9"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p9"
@@ -717,6 +781,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C10"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p10"
@@ -724,6 +789,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C11"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p11"
@@ -731,6 +797,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C12"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p12"
@@ -738,6 +805,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C13"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p13"
@@ -745,6 +813,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C14"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p14"
@@ -752,6 +821,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C15"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p15"
@@ -759,6 +829,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C16"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p16"
@@ -766,6 +837,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C17"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p17"
@@ -773,6 +845,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C18"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p18"
@@ -780,6 +853,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C19"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p19"
@@ -787,6 +861,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C20"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p20"
@@ -794,6 +869,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C21"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p21"
@@ -801,6 +877,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C22"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p22"
@@ -808,6 +885,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C23"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p23"
@@ -815,6 +893,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C24"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p24"
@@ -822,6 +901,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C25"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p25"
@@ -829,6 +909,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C26"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p26"
@@ -836,6 +917,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C27"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p27"
@@ -843,6 +925,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C28"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p28"
@@ -850,6 +933,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C29"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p29"
@@ -857,6 +941,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C30"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p30"
@@ -864,6 +949,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C31"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p31"
@@ -871,6 +957,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C32"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p32"
@@ -878,6 +965,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C33"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p33"
@@ -885,6 +973,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C34"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p34"
@@ -892,6 +981,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C35"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p35"
@@ -899,6 +989,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C36"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p36"
@@ -906,6 +997,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C37"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p37"
@@ -913,6 +1005,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C38"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p38"
@@ -920,6 +1013,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C39"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p39"
@@ -927,6 +1021,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C40"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p40"
@@ -934,6 +1029,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C41"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p41"
@@ -941,6 +1037,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C42"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p42"
@@ -948,6 +1045,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C43"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p43"
@@ -955,6 +1053,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C44"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p44"
@@ -962,6 +1061,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C45"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p45"
@@ -969,6 +1069,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C46"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p46"
@@ -976,6 +1077,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C47"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p47"
@@ -983,6 +1085,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C48"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p48"
@@ -990,6 +1093,7 @@
             android:theme="@android:style/Theme.Dialog" />
 
         <activity
+            android:exported="true"
             android:name="com.lody.virtual.client.stub.StubDialog$C49"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
             android:process=":p49"
