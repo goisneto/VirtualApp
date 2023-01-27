@@ -2,15 +2,14 @@ apply plugin: 'com.android.application'
 
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 30
+    buildToolsVersion '33.0.0'
     defaultConfig {
         applicationId "io.virtualapp"
-        minSdkVersion 15
-        targetSdkVersion 22
+        minSdkVersion 130
+        targetSdkVersion 32
         versionCode 24
         versionName "1.2.5"
-        multiDexEnabled true
         android {
             defaultConfig {
                 ndk {
