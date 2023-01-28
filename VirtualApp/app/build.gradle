@@ -7,7 +7,7 @@ android {
     buildToolsVersion '33.0.0'
     defaultConfig {
         applicationId "io.virtualapp"
-        minSdkVersion 130
+        minSdkVersion 30
         targetSdkVersion 32
         versionCode 24
         versionName "1.2.5"
