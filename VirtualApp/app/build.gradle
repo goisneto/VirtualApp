@@ -1,10 +1,18 @@
 apply plugin: 'com.android.application'
+apply plugin: 'lazyinject'
+
+lazyinject {
+    enable true
+    optimize true
+    includes "virtual"
+}
 
 
 android {
     namespace "io.virtualapp"
     compileSdkVersion 30
     buildToolsVersion '33.0.0'
+    multiDexEnabled true
     defaultConfig {
         applicationId "io.virtualapp"
         minSdkVersion 30
@@ -19,7 +27,6 @@ android {
             }
         }
     }
-
     sourceSets {
         main{
             jniLibs.srcDirs = ['libs']
@@ -36,8 +43,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
 }
@@ -52,6 +59,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation fileTree(dir: 'libs', include: '*.jar')
     implementation project(':lib')
     //Android Lib
