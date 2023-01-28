@@ -12,7 +12,7 @@ android {
     namespace "io.virtualapp"
     compileSdkVersion 30
     buildToolsVersion '33.0.0'
-    multiDexEnabled true
+    //multiDexEnabled true
     defaultConfig {
         applicationId "io.virtualapp"
         minSdkVersion 30
