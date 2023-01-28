@@ -86,12 +86,12 @@ public class ActivityManagerStub extends MethodInvocationProxy<MethodInvocationS
             addMethodProxy(new StaticMethodProxy("getRecentTasks") {
                 @Override
                 public Object call(Object who, Method method, Object... args) throws Throwable {
-                    List<?> _infos = method.invoke(who, args);
+                    List<ActivityManager.RecentTaskInfo> _infos = (List<ActivityManager.RecentTaskInfo>) method.invoke(who, args);
                     //noinspection unchecked
                     List<ActivityManager.RecentTaskInfo> infos =
                             ParceledListSliceCompat.isReturnParceledListSlice(method)
-                                    ? ParceledListSlice.getList.call(_infos)
-                                    : (List) _infos;
+                                    ? (List<ActivityManager.RecentTaskInfo>) ParceledListSlice.getList.call(_infos)
+                                    : (List<ActivityManager.RecentTaskInfo>) _infos;
                     for (ActivityManager.RecentTaskInfo info : infos) {
                         AppTaskInfo taskInfo = VActivityManager.get().getTaskInfo(info.id);
                         if (taskInfo == null) {
