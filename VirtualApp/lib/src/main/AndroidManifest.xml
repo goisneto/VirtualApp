@@ -286,7 +286,6 @@
             android:name=".client.stub.ResolverActivity"
             android:configChanges="keyboard|keyboardHidden|orientation"
             android:excludeFromRecents="true"
-            android:exported="true"
             android:finishOnCloseSystemDialogs="true"
             android:process="@string/engine_process_name"
             android:screenOrientation="portrait"
